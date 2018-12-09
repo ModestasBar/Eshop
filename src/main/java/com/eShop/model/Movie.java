@@ -6,33 +6,33 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 @Entity
-public class Product implements Serializable {
+public class Movie implements Serializable {
 
 
     private static final long serialVersionUID = -1935978243166225988L;
 
     @Id
     @GeneratedValue
-    private int productId;
+    private int movieId;
 
     private String movieName;
 
     private String movieReleaseYear;
 
-    private int movieType;
+    private String movieType;
 
-    private String moviePrice;
+    private long moviePrice;
 
     private String movieIMDB;
 
     private String movieAbout;
 
-    public int getProductId() {
-        return productId;
+    public int getMovieId() {
+        return movieId;
     }
 
-    public void setProductId(int productId) {
-        this.productId = productId;
+    public void setMovieId(int movieId) {
+        this.movieId = movieId;
     }
 
     public String getMovieName() {
@@ -51,19 +51,19 @@ public class Product implements Serializable {
         this.movieReleaseYear = movieReleaseYear;
     }
 
-    public int getMovieType() {
+    public String getMovieType() {
         return movieType;
     }
 
-    public void setMovieType(int movieType) {
+    public void setMovieType(String movieType) {
         this.movieType = movieType;
     }
 
-    public String getMoviePrice() {
+    public long getMoviePrice() {
         return moviePrice;
     }
 
-    public void setMoviePrice(String moviePrice) {
+    public void setMoviePrice(long moviePrice) {
         this.moviePrice = moviePrice;
     }
 

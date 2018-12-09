@@ -18,13 +18,15 @@
             </tr>
             </thead>
             <tbody>
+            <c:forEach items="${movieList}" var="movie">
             <tr>
-                <td>movieName</td>
-                <td>movieCondition</td>
-                <td>moviePrice</td>
-                <td>movieManufacturer</td>
-                <td><a href="#">Info</a> </td>
+                <td>${movie.movieName}</td>
+                <td>${movie.movieType}</td>
+                <td>${movie.movieIMDB}</td>
+                <td>${movie.moviePrice}</td>
+                <td><a href="<c:url value="/movieList/${movie.movieId}"/>">Info</a> </td>
             </tr>
+            </c:forEach>
             </tbody>
         </table>
     </div>

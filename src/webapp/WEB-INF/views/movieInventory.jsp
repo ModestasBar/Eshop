@@ -24,11 +24,17 @@
                 <td>${movie.movieType}</td>
                 <td>${movie.movieIMDB}</td>
                 <td>${movie.moviePrice}</td>
-                <td><a href="<c:url value="/movieList/${movie.movieId}"/>">Info</a> </td>
+                <td><a href="<c:url value="/movieList/${movie.movieId}"/>">Info </a>
+                <a href="<c:url value="/movieList/${movie.movieId}"/>">Edit </a>
+                <a href="<c:url value="/movieList/${movie.movieId}"/>">Delete </a>
+                </td>
             </tr>
             </c:forEach>
             </tbody>
         </table>
+        <a href="<c:url value="/admin/movieInventory/addMovie"/>">
+            <button type="button" class="btn btn-success">Add Movie</button>
+        </a>
     </div>
 </div>
 

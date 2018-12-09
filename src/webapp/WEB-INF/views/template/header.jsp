@@ -12,7 +12,6 @@
 
     <title>Landing Page - Start Bootstrap Theme</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Bootstrap core CSS -->
     <link href="<c:url value="/resources/vendor/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet">
 
@@ -43,7 +42,7 @@
             <a class="navbar-brand" href="<c:url value="/"/>">Movies for you</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="<c:url value="/"/>">Home</a></li>
+            <li class="active custom-control-inline" ><a href="<c:url value="/"/>">Home</a></li>
             <li><a href="<c:url value="/movieList"/>">Movies</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
