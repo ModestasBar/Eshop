@@ -10,4 +10,9 @@ public class HomeController {
     public String home(){
         return "home";
     }
+
+    @RequestMapping("/movieList")
+    public String productList(){
+        return "movieList";
+    }
 }
