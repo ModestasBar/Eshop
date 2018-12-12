@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Eshop:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/Eshop_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/src/webapp</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="Eshop/web/Web" />
       <element id="directory" name="WEB-INF">
@@ -42,6 +42,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.2" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.2.0.Final" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
         </element>
       </element>
     </root>

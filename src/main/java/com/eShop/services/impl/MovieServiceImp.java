@@ -25,4 +25,8 @@ public class MovieServiceImp implements MovieService {
     public void addMovie(Movie movie){
         movieDao.addMovie(movie);
     }
+
+    public void deleteMovie(int movieId){
+        movieDao.deleteMovie(movieId);
+    }
 }

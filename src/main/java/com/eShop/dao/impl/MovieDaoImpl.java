@@ -37,4 +37,11 @@ public class MovieDaoImpl implements MovieDao {
         session.saveOrUpdate(movie);
         session.flush();
     }
+
+    public void deleteMovie(int movieId){
+        Session session = sessionFactory.getCurrentSession();
+        Movie movie = getMovieById(movieId);
+        session.delete(movie);
+        session.flush();
+    }
 }

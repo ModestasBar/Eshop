@@ -10,6 +10,8 @@
         <form:form action="${pageContext.request.contextPath}/admin/movieInventory/addMovie" method="post"
                    modelAttribute="movie" enctype="multipart/form-data">
 
+            <form:hidden path="movieId" value="${movie.movieId}"/>
+
             <div class="form-group">
                 <form:errors path="movieName" cssStyle="color:#ff253a;"/><br>
                 <label for="name">Name</label>
@@ -22,9 +24,9 @@
                 <label class="checkbox-inline"><form:radiobutton path="movieType" id="type" value="Comendy"/>Comedy</label>
             </div>
             <div class="form-group">
-                <form:errors path="movieReleaseYear" cssStyle="color:#ff253a;"/><br>
+                <form:input path="movieReleaseYear" id="date" class="form-Control"/><br>
                 <label for="date">Date</label>
-                <form:input path="movieReleaseYear" id="date" class="form-Control"/>
+                <form:errors path="movieReleaseYear" cssStyle="color:#ff253a;"/>
             </div>
             <div class="form-group">
                 <form:errors path="movieDuration" cssStyle="color:#ff253a;"/><br>

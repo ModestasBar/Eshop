@@ -10,23 +10,24 @@
         <table class="table table-striped">
             <thead>
             <tr>
+                <th>Picture</th>
                 <th>Name</th>
-                <th>Condition</th>
-                <th>Price</th>
-                <th>Manufacturer</th>
-                <th>Info</th>
+                <th>Type</th>
+                <th>IMDB</th>
+                <th>Duration</th>
             </tr>
             </thead>
             <tbody>
             <c:forEach items="${movieList}" var="movie">
             <tr>
+                <td><img src="<c:url value="/resources/image/${movie.movieId}.png"/>" alt="image" style="width: 100%;"/> </td>
                 <td>${movie.movieName}</td>
                 <td>${movie.movieType}</td>
                 <td>${movie.movieIMDB}</td>
-                <td>${movie.moviePrice}</td>
-                <td><a href="<c:url value="/movieList/${movie.movieId}"/>">Info </a>
-                <a href="<c:url value="/movieList/${movie.movieId}"/>">Edit </a>
-                <a href="<c:url value="/movieList/${movie.movieId}"/>">Delete </a>
+                <td>${movie.movieDuration}</td>
+                <td><a href="<c:url value="/admin/movieInventory/${movie.movieId}"/>">Info </a>
+                <a href="<c:url value="/admin/movieInventory/editMovie/${movie.movieId}"/>">Edit </a>
+                <a href="<c:url value="/admin/movieInventory/deleteMovie/${movie.movieId}"/>">Delete </a>
                 </td>
             </tr>
             </c:forEach>

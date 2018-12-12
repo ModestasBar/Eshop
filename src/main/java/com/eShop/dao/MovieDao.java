@@ -8,4 +8,5 @@ public interface MovieDao {
     List<Movie> movieList();
     Movie getMovieById(int movieId);
     void addMovie(Movie movie);
+    void deleteMovie(int movieId);
 }

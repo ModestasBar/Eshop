@@ -8,13 +8,14 @@
         <br>
         <div class="row">
             <div class="col-sm-6">
-                <img src="#" alt="image" style="width:100%"/>
+                <img src="<c:url value="/resources/image/${movie.movieId}.png"/>" alt="image" style="width:100%"/> </p>
             </div>
             <div class="col-sm-6">
+                <p>${movie.movieName}</p>
                 <p>${movie.movieType}</p>
                 <p>${movie.movieIMDB}</p>
+                <p>${movie.movieDuration}</p>
                 <p>${movie.movieReleaseYear}</p>
-                <p>${movie.moviePrice}</p>
                 <p>${movie.movieAbout}</p>
             </div>
         </div>
