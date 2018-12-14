@@ -21,15 +21,6 @@ public class HomeController {
         return "home";
     }
 
-    @RequestMapping("/movieList")
-    public String productList(Model model){
-
-        List<Movie> movieList = movieService.movieList();
-
-        model.addAttribute("movieList", movieList);
-
-        return "movieList";
-    }
 
     @RequestMapping("/login")
     public String login(@RequestParam(value = "error",required = false) String error, @RequestParam(value="logout", required = false)String logout, Model model){

@@ -8,6 +8,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.List;
+
 @Controller
 public class MovieController {
 
@@ -22,6 +24,16 @@ public class MovieController {
         model.addAttribute("movie", movie);
 
         return "movieInfo";
+    }
+
+    @RequestMapping("/movieList")
+    public String productList(Model model){
+
+        List<Movie> movieList = movieService.movieList();
+
+        model.addAttribute("movieList", movieList);
+
+        return "movieList";
     }
 
 }

@@ -32,6 +32,14 @@ public class Customer implements Serializable {
     @OneToOne
     private BillingAddress billingAddress;
 
+    public int getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
+
     public String getCustomerName() {
         return customerName;
     }
