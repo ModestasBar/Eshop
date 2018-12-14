@@ -6,6 +6,7 @@
             <h1>Administrator page</h1>
             <p>This is administrator page!</p>
         </div>
+        <a href="<c:url value="/j_spring_security_logout"/>">Logout </a>
         <br>
         <h3><a href="<c:url value="/admin/movieInventory"/>">
             Movies inventory

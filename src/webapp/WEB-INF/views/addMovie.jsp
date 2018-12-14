@@ -11,9 +11,8 @@
                    modelAttribute="movie" enctype="multipart/form-data">
 
             <div class="form-group">
-                <form:errors path="movieName" cssStyle="color:#ff253a;"/><br>
-                <label for="name">Name</label>
-                <form:input path="movieName" id="name" class="form-Control"/>
+                <label for="name">Name </label> <form:errors path="movieName" cssStyle="color:#ff253a;"/>
+                <form:input path="movieName" id="name" class="form-control"/>
             </div>
             <div class="form-group">
                 <label for="type">Type</label>
@@ -22,14 +21,12 @@
                 <label class="checkbox-inline"><form:radiobutton path="movieType" id="type" value="Comendy"/>Comedy</label>
             </div>
             <div class="form-group">
-                <form:errors path="movieReleaseYear" cssStyle="color:#ff253a;"/><br>
-                <label for="date">Date</label>
-                <form:input path="movieReleaseYear" id="date" class="form-Control"/>
+                <label for="date">Date </label> <form:errors path="movieReleaseYear" cssStyle="color:#ff253a;"/><br>
+                <form:input path="movieReleaseYear" id="date" class="form-control"/>
             </div>
             <div class="form-group">
-                <form:errors path="movieDuration" cssStyle="color:#ff253a;"/><br>
-                <label for="duration">Duration</label>
-                <form:input path="movieDuration" id="duration" class="form-Control"/>
+                <label for="duration">Duration </label> <form:errors path="movieDuration" cssStyle="color:#ff253a;"/>
+                <form:input path="movieDuration" id="duration" class="form-control"/>
             </div>
             <div class="form-group">
                 <label for="IMDB">IMBD Score</label>
@@ -40,7 +37,7 @@
 
             <div class="form-group">
                 <label for="about">Description</label>
-                <form:textarea path="movieAbout" id="about" class="form-Control"/>
+                <form:textarea path="movieAbout" id="about" class="form-control"/>
             </div>
 
             <div class="form-group">

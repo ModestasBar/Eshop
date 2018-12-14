@@ -45,6 +45,15 @@
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.2.0.Final" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.8.RELEASE" />
         </element>
       </element>
     </root>
