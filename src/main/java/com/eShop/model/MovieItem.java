@@ -2,12 +2,10 @@ package com.eShop.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import java.io.Serializable;
 
+@Entity
 public class MovieItem implements Serializable {
 
 
@@ -18,11 +16,35 @@ public class MovieItem implements Serializable {
     private int movieItemId;
 
     @ManyToOne
-    @JoinColumn(name = "movieListId")
+    @JoinColumn(name = "movieCartId")
     @JsonIgnore
-    private MovieList movieList;
+    private MovieCart movieCart;
 
     @ManyToOne
     @JoinColumn(name = "movieId")
     private Movie movie;
+
+    public int getMovieItemId() {
+        return movieItemId;
+    }
+
+    public void setMovieItemId(int movieItemId) {
+        this.movieItemId = movieItemId;
+    }
+
+    public MovieCart getMovieCart() {
+        return movieCart;
+    }
+
+    public void setMovieCart(MovieCart movieCart) {
+        this.movieCart = movieCart;
+    }
+
+    public Movie getMovie() {
+        return movie;
+    }
+
+    public void setMovie(Movie movie) {
+        this.movie = movie;
+    }
 }

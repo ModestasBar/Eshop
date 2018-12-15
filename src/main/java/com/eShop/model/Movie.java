@@ -1,13 +1,12 @@
 package com.eShop.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Transient;
+import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 @Entity
 public class Movie implements Serializable {
@@ -37,6 +36,18 @@ public class Movie implements Serializable {
 
     @Transient
     private MultipartFile movieImage;
+
+    @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JsonIgnore
+    private List<MovieItem> movieItem;
+
+    public List<MovieItem> getMovieItem() {
+        return movieItem;
+    }
+
+    public void setMovieItem(List<MovieItem> movieItem) {
+        this.movieItem = movieItem;
+    }
 
     public String getMovieDuration() {
         return movieDuration;

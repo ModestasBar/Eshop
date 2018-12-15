@@ -1,10 +1,7 @@
 package com.eShop.model;
 
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
@@ -30,7 +27,20 @@ public class Customer implements Serializable {
     private boolean enabled;
 
     @OneToOne
+    @JoinColumn(name = "billingAddressId")
     private BillingAddress billingAddress;
+
+    @OneToOne
+    @JoinColumn(name = "movieCartId")
+    private MovieCart movieCart;
+
+    public MovieCart getMovieCart() {
+        return movieCart;
+    }
+
+    public void setMovieCart(MovieCart movieCart) {
+        this.movieCart = movieCart;
+    }
 
     public int getCustomerId() {
         return customerId;

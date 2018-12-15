@@ -43,7 +43,7 @@
         </div>
         <ul class="nav navbar-nav">
             <li class="active custom-control-inline" ><a href="<c:url value="/"/>">Home</a></li>
-            <li><a href="<c:url value="/movieList"/>">Movies</a></li>
+            <li><a href="<c:url value="/movieCart"/>">Movies</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="<c:url value="/admin"/>"><span class="glyphicon glyphicon-user"></span> Admin </a></li>

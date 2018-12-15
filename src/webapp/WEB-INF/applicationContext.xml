@@ -45,7 +45,7 @@
         <security:intercept-url pattern="/customer/**" access="ROLE_USER"/>
         <security:form-login
                 login-page="/login"
-                default-target-url="/movieList"
+                default-target-url="/movieCart"
                 authentication-failure-url="/login?error"
                 username-parameter="username"
                 password-parameter="password"/>

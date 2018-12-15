@@ -16,4 +16,9 @@ public class CustomerServiceImpl implements CustomerService {
         customerDao.addCustomer(customer);
     }
 
+    public Customer getCustomerByUsername(String username){
+
+       return customerDao.getCustomerByUsername(username);
+    }
+
 }

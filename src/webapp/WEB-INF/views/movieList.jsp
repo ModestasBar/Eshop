@@ -19,14 +19,14 @@
             </tr>
             </thead>
             <tbody>
-            <c:forEach items="${movieList}" var="movie">
+            <c:forEach items="${movieCart}" var="movie">
             <tr>
                 <td><img src="<c:url value="/resources/image/${movie.movieId}.png"/>" alt="image" style="width:100%"/></td>
                 <td>${movie.movieName}</td>
                 <td>${movie.movieType}</td>
                 <td>${movie.movieIMDB}</td>
                 <td>${movie.movieDuration}</td>
-                <td><a href="<c:url value="/movieList/${movie.movieId}"/>">Info</a> </td>
+                <td><a href="<c:url value="/movieCart/${movie.movieId}"/>">Info</a> </td>
             </tr>
             </c:forEach>
             </tbody>

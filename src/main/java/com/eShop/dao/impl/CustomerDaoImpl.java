@@ -4,7 +4,9 @@ import com.eShop.dao.CustomerDao;
 import com.eShop.model.Authorities;
 import com.eShop.model.Customer;
 
+import com.eShop.model.MovieCart;
 import com.eShop.model.Users;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,6 +40,17 @@ public class CustomerDaoImpl implements CustomerDao {
         authorities.setAuthority("ROLE_USER");
         session.saveOrUpdate(authorities);
 
+        MovieCart movieCart = new MovieCart();
+        movieCart.setCustomer(customer);
+        customer.setMovieCart(movieCart);
+        session.saveOrUpdate(movieCart);
+        session.saveOrUpdate(customer);
+    }
 
+    public Customer getCustomerByUsername(String username){
+        Session session = sessionFactory.getCurrentSession();
+        Query query = session.createQuery("From Customer where username=?");
+        query.setString(0, username);
+        return (Customer) query.uniqueResult();
     }
 }
