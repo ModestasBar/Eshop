@@ -54,6 +54,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-core:3.2.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.2.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.1" />
         </element>
       </element>
     </root>
