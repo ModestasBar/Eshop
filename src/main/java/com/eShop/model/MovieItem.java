@@ -24,12 +24,14 @@ public class MovieItem implements Serializable {
     @JoinColumn(name = "movieId")
     private Movie movie;
 
-    public int getMovieItemId() {
-        return movieItemId;
+    private int quantity;
+
+    public int getQuantity() {
+        return quantity;
     }
 
-    public void setMovieItemId(int movieItemId) {
-        this.movieItemId = movieItemId;
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 
     public MovieCart getMovieCart() {

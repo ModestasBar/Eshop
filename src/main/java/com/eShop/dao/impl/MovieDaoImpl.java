@@ -29,6 +29,7 @@ public class MovieDaoImpl implements MovieDao {
 
     public Movie getMovieById(int movieId){
         Session session = sessionFactory.getCurrentSession();
+        session.flush();
         return (Movie) session.get(Movie.class, movieId);
     }
 

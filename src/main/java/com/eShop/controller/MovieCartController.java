@@ -2,7 +2,6 @@ package com.eShop.controller;
 
 import com.eShop.model.Customer;
 import com.eShop.services.CustomerService;
-import com.eShop.services.MovieCartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.web.bind.annotation.AuthenticationPrincipal;

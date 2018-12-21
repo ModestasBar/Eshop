@@ -7,45 +7,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bad01db-4e51-42ab-8afa-a7b15303dcfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eShop/dao/MovieCartDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieCartDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eShop/services/MovieCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eShop/services/impl/MovieCartServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieCart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/lib/jackson-annotations-2.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/lib/jackson-core-2.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/lib/jackson-databind-2.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/resources/vendor/bootstrap/js/controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/controller/admin/AdminHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/controller/admin/AdminHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/dao/MovieCartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/dao/MovieCartDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/CustomerDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieCartDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieCartDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/model/MovieItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/model/MovieItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/model/MovieList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/model/MovieCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/services/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/services/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/services/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/services/MovieCartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/services/MovieCartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eShop/services/impl/MovieCartServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eShop/services/impl/MovieCartServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/controller/MovieCartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/controller/MovieCartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/controller/MovieCartResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/controller/MovieCartResources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/controller/admin/AdminHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/controller/admin/AdminHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/dao/MovieCartDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/dao/MovieCartDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/dao/impl/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/dao/impl/CustomerDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/model/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/dao/impl/MovieCartDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/dao/impl/MovieCartDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/dao/impl/MovieDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/dao/impl/MovieDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/model/MovieItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/model/MovieItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/model/MovieList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/services/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/services/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/services/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/services/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/services/MovieCartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/services/MovieCartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/services/impl/MovieCartServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/classes/com/eShop/services/impl/MovieCartServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieCart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieCart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieInfo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieInventory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieInventory.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/views/template/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/views/template/footer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/views/template/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/views/template/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/controller/MovieCartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/controller/MovieCartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/controller/MovieCartResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/controller/MovieCartResources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/controller/admin/AdminHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/controller/admin/AdminHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/dao/MovieCartDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/dao/MovieCartDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/dao/impl/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/dao/impl/CustomerDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/model/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/dao/impl/MovieCartDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/dao/impl/MovieCartDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/dao/impl/MovieDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/dao/impl/MovieDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/model/MovieItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/model/MovieItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/model/MovieList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/services/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/services/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/services/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/services/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/services/MovieCartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/services/MovieCartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/eShop/services/impl/MovieCartServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eShop/services/impl/MovieCartServiceImp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,35 +65,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CustomerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/CustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MovieCartResources.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartResources.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="-476">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,11 +77,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieCartController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="movieCart.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/movieCart.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieCartDaoImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieCartDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/resources/vendor/bootstrap/js/controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieCartController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="274">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,80 +116,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Authorities.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/Authorities.java">
+      <file leaf-file-name="MovieCartServiceImp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/services/impl/MovieCartServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="144">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BillingAddress.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/BillingAddress.java">
+      <file leaf-file-name="movieInfo.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/movieInfo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieCart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/MovieCart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/Movie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-              <folding>
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1095#1096#0" expanded="true" />
-                <element signature="e#1154#1155#0" expanded="true" />
-                <element signature="e#1196#1197#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="342">
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -195,8 +145,9 @@
         <option value="spring-beans.schema" />
         <option value="CSS File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -204,10 +155,12 @@
     <findStrings>
       <find>product</find>
       <find>movie</find>
+      <find>cartId</find>
     </findStrings>
     <replaceStrings>
       <replace>movie</replace>
       <replace>${movie.movie}</replace>
+      <replace>movieCartId</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -216,24 +169,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/resources/css/custom.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/admin/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/admin/AdminHomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/admin/AdminHome.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/admin/AdminProduct.java" />
-        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieList.jsp" />
-        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieInfo.jsp" />
         <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/editMovie.jsp" />
-        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/template/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/dao/MovieDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/services/MovieService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/services/impl/MovieServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieInventory.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/admin/AdminMovie.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/model/users.java" />
-        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/login.jsp" />
         <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/addMovie.jsp" />
@@ -245,28 +187,39 @@
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/model/Authorities.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/model/Users.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/CustomerController.java" />
-        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/customerRegisterSuccess.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieController.java" />
-        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/model/WatchList.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/model/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/model/MovieList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/model/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eShop/dao/MovieCartDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieCartDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/services/impl/MovieCartService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eShop/services/impl/MovieCartServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartResources.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/services/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/services/impl/CustomerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/dao/CustomerDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/CustomerDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieCart.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/model/MovieCart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eShop/model/MovieItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/admin/AdminHome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartController.java" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eShop/model/MovieItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/CustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eShop/dao/MovieCartDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eShop/services/MovieCartService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eShop/services/impl/MovieCartServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/resources/vendor/fontawesome-free/js/controller.js" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieInventory.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieList.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/customerRegisterSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/template/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/template/header.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieCartDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/resources/vendor/bootstrap/js/controller.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartResources.java" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/views/movieCart.jsp" />
       </list>
     </option>
   </component>
@@ -295,7 +248,7 @@
       <path value="$PROJECT_DIR$/src/webapp/WEB-INF/resources/vendor/fontawesome-free/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="13" />
     <option name="y" value="12" />
     <option name="width" value="1280" />
@@ -309,7 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,6 +303,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="eShop" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eShop" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eShop" type="b2602c69:ProjectViewProjectNode" />
@@ -403,6 +365,13 @@
               <item name="eShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eshop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -411,6 +380,53 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eShop" type="b2602c69:ProjectViewProjectNode" />
@@ -420,12 +436,22 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="eShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,19 +467,21 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Modestas\Desktop\GitHub\Eshop\src\webapp\WEB-INF\views" />
-      <recent name="C:\Users\Modestas\Desktop\GitHub\Eshop\src\webapp\WEB-INF\resources" />
-      <recent name="C:\Users\Modestas\Desktop\GitHub\Eshop\src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Modestas\Desktop\GitHub\Eshop\src\webapp\WEB-INF\lib" />
+      <recent name="C:\Users\Modestas\Desktop\GitHub\Eshop\src\webapp\WEB-INF\views" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.eShop.controller.admin" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Modestas\Desktop\GitHub\Eshop\src\webapp\WEB-INF\resources\vendor\bootstrap\js" />
       <recent name="C:\Users\Modestas\Desktop\GitHub\Eshop\src\webapp\WEB-INF\views" />
+      <recent name="C:\Users\Modestas\Desktop\GitHub\Eshop\src\webapp\WEB-INF\resources" />
+      <recent name="C:\Users\Modestas\Desktop\GitHub\Eshop\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -627,7 +655,14 @@
       <workItem from="1544773406216" duration="2268000" />
       <workItem from="1544776683436" duration="18045000" />
       <workItem from="1544803909118" duration="618000" />
-      <workItem from="1544895676965" duration="9601000" />
+      <workItem from="1544895676965" duration="10215000" />
+      <workItem from="1545091789216" duration="651000" />
+      <workItem from="1545147993671" duration="5665000" />
+      <workItem from="1545217071617" duration="22838000" />
+      <workItem from="1545302935386" duration="3575000" />
+      <workItem from="1545314688488" duration="4570000" />
+      <workItem from="1545380830393" duration="860000" />
+      <workItem from="1545403704749" duration="6716000" />
     </task>
     <task id="LOCAL-00001" summary="home page(fix)">
       <created>1544207920923</created>
@@ -647,7 +682,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80815000" />
+    <option name="totallyTimeSpent" value="126304000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -659,7 +694,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -673,7 +708,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.11881188" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.42739275" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3069307" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -681,11 +716,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32838285" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.37623763" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20792079" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.08580858" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.13366337" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31164902" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25869894" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
@@ -694,6 +728,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
@@ -721,128 +756,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartController.java</url>
-          <line>22</line>
-          <properties class="com.eShop.controller.MovieCartController" method="getMovieCart">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartController.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartController.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartController.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartController.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="34" />
+      <option name="time" value="99" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
         <watch expression="movie.movieAbout" />
+        <watch expression="movieItemList" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/resources/vendor/bootstrap/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/resources/vendor/fontawesome-free/js/fontawesome.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/template/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/resources/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/movieList.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/services/MovieCartService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/resources/image/0.png" />
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/template/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="50" column="83" selection-start-line="50" selection-start-column="83" selection-end-line="50" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/resources/image/1.png" />
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/resources/image/2.png" />
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/resources/image/3.png" />
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/resources/image/4.png" />
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/movieInventory.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/resources/image/5.png" />
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/movieInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/dao/MovieDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="105" selection-start-line="11" selection-start-column="105" selection-end-line="11" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -853,315 +783,351 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/registerCustomer.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/addMovie.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="39" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/customerRegisterSuccess.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/admin/AdminHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/admin/AdminMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/services/impl/MovieServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/dao/MovieCartDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieCartDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="69" lean-forward="true" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/services/MovieService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/services/MovieCartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/services/impl/MovieCartServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/services/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/dao/CustomerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/services/impl/CustomerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/CustomerDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="51" column="62" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="256">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/admin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" lean-forward="true" selection-end-line="31" />
+        <state relative-caret-position="358">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/movieCart.jsp">
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/home.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/addMovie.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="17">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/Users.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/admin/AdminMovie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1046">
+          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/resources/image/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/movieInventory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/MovieItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="317">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/customerRegisterSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="43" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar!/org/springframework/util/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-tx-4.3.18.RELEASE.jar!/org/springframework/transaction/support/TransactionSynchronizationUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-tx-4.3.18.RELEASE.jar!/org/springframework/transaction/support/TransactionSynchronizationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.0.1.Final/hibernate-core-4.0.1.Final.jar!/org/hibernate/HibernateException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-orm-4.3.18.RELEASE.jar!/org/springframework/orm/hibernate4/SpringSessionContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/movieList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/template/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/InvocationTargetException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/context/request/AbstractRequestAttributes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7344">
+          <caret line="532" selection-start-line="532" selection-end-line="532" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6154">
+          <caret line="411" selection-start-line="411" selection-end-line="411" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5712">
+          <caret line="407" selection-start-line="407" selection-end-line="407" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-security-web-3.2.5.RELEASE.jar!/org/springframework/security/web/FilterChainProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/admin/AdminHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/MovieCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="68">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/Movie.java">
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/template/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding>
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/BillingAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/model/Authorities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="374">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="252">
+          <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="105">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/CustomerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.0.1.Final/hibernate-core-4.0.1.Final.jar!/org/hibernate/internal/SessionFactoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="766" selection-start-line="766" selection-end-line="766" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-aop-4.3.18.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2889#2890#0" expanded="true" />
+            <element signature="e#2950#2951#0" expanded="true" />
+            <element signature="e#3074#3075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-aop-4.3.18.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/movieInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/services/impl/MovieCartServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#652#653#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="274">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/resources/vendor/bootstrap/js/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/controller/MovieCartResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/views/movieCart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eShop/dao/impl/MovieCartDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -1184,7 +1150,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (Eshop)|Spring</last-edited>
+          <last-edited>Web (Eshop)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

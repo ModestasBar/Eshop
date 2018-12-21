@@ -18,7 +18,7 @@
             </tr>
             </thead>
             <tbody>
-            <c:forEach items="${movieCart}" var="movie">
+            <c:forEach items="${movieList}" var="movie">
             <tr>
                 <td><img src="<c:url value="/resources/image/${movie.movieId}.png"/>" alt="image" style="width: 100%;"/> </td>
                 <td>${movie.movieName}</td>

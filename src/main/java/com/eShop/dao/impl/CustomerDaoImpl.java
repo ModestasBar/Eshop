@@ -45,12 +45,15 @@ public class CustomerDaoImpl implements CustomerDao {
         customer.setMovieCart(movieCart);
         session.saveOrUpdate(movieCart);
         session.saveOrUpdate(customer);
+
+        session.flush();
     }
 
     public Customer getCustomerByUsername(String username){
         Session session = sessionFactory.getCurrentSession();
         Query query = session.createQuery("From Customer where username=?");
         query.setString(0, username);
+        session.flush();
         return (Customer) query.uniqueResult();
     }
 }
