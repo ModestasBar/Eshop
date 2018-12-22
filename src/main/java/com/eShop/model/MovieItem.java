@@ -24,15 +24,6 @@ public class MovieItem implements Serializable {
     @JoinColumn(name = "movieId")
     private Movie movie;
 
-    private int quantity;
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
 
     public MovieCart getMovieCart() {
         return movieCart;

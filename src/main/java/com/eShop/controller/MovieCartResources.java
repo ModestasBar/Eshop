@@ -49,13 +49,11 @@ public class MovieCartResources {
         for (int i = 0; i < movieItemList.size(); i++) {
             if (movieItemList.get(i).getMovie().getMovieId() == movie.getMovieId()) {
                 MovieItem movieItem = movieItemList.get(i);
-                movieItem.setQuantity(movieItem.getQuantity() + 1);
                 movieCartService.addMovieCartItem(movieItem);
                 return;
             }
         }
         MovieItem movieItem = new MovieItem();
-        movieItem.setQuantity(1);
         movieItem.setMovie(movie);
         movieItem.setMovieCart(movieCart);
         movieCartService.addMovieCartItem(movieItem);
